@@ -1,0 +1,131 @@
+.home-route-container {
+  background-image: linear-gradient(
+    91.08deg,
+    #dbbcc4 9.68%,
+    #f3dfd8 32.98%,
+    #d8bfd0 75.7%,
+    #b7b1d5 99.11%
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.responsive-home-container {
+  background-color: #f8fafc;
+  border-radius: 8px;
+  width: 90%;
+  height: 91%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen AND (min-width: 768px) {
+  .responsive-home-container {
+    width: 79%;
+    max-width: 1146px;
+  }
+}
+.image-text-container {
+  width: 83%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-quiz-image {
+  width: 189px;
+  height: 133px;
+}
+
+@media screen AND (min-width: 768px) {
+  .start-quiz-image {
+    width: 282px;
+    height: 200px;
+    margin-top: 10px;
+  }
+}
+
+.home-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.36px;
+  color: #0ea5e9;
+  text-align: center;
+}
+
+@media screen AND (min-width: 768px) {
+  .home-heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.home-description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  text-align: center;
+}
+
+.start-btn {
+  width: 100px;
+  height: 40px;
+  outline: none;
+  cursor: pointer;
+  border-style: none;
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  border-radius: 8px;
+  background-color: #0ea5e9;
+  color: #ffffff;
+}
+
+.warning-msg {
+  width: fixed (265px) px;
+  height: Hug (48px) px;
+  margin-top: 56px;
+  padding: 8px;
+  border-radius: 12px;
+  background-color: #fef3c7;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.warning-icon {
+  width: 16px;
+  height: 16px;
+}
+.caution-message {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #d97706;
+}
+
+@media screen AND (min-width: 768px) {
+  .home-description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .start-btn {
+    margin-top: 20px;
+  }
+  .caution-message {
+    font-size: 16px;
+  }
+  .warning-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .warning-msg {
+    margin-bottom: 10px;
+  }
+}

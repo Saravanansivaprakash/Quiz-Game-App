@@ -1,0 +1,62 @@
+.unattempt-question-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  align-self: flex-start;
+}
+
+.unattempt-list-el {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-self: flex-start;
+}
+.unattemptedlist-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.select-unattempted-list {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.select-unattempted-item {
+  display: flex;
+  gap: 10px;
+}
+.unattempt-default {
+  width: 221px;
+  height: 48px;
+  padding: 8px 24px 8px 24px;
+  border-radius: 8px;
+  background-color: #cbd5e1;
+}
+
+.icon-style-unattempt {
+  width: 20px;
+  height: 20px;
+}
+
+.correctans {
+  background-color: #1c944b;
+  color: #ffffff;
+}
+
+@media screen AND (min-width: 768px) {
+  .unattempt-list-el {
+    width: 500px;
+  }
+}
+.question-image {
+  width: 176px;
+  height: 50px;
+}
